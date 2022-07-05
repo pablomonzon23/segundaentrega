@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{width:100vw ;
+
+height: 100vw;
+
+
+}
+   
+header{
+    height: 10%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+       background:tomato
+    }
+
+
+header h1{
+    text-align: left;
+    font-size: 5rem;
+    color: blanchedalmond;
+    padding-left: 6rem;
+    
+
+
+
+}
+h2{
+    font-family: 'Ephesis', cursive;
+    font-size: 4rem;
+    text-shadow: 15px 19px 15px black rebeccapurple;
+    
+}
+
+    .navegacion{
+        text-shadow: 5px 13px 6px rgba(0,0,0,0.6);
+
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none; 
+        }
+    
+        a{
+        color: beige;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    }
+    main{
+    height: 80%;
+    padding: 20px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);}
+
+   
+    .contenedor {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 100% 100%;
+        
+        
+        grid-template-areas:
+         "caja1 caja2"
+         "caja3 caja3";
+        
+        }
+   
+   .caja1{
+    grid-area: "caja1";
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 50%, #ffffff 100%);
+
+    text-align: center;
+    }
+   .caja2{
+    grid-area: caja2;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 22%, #ff70f6 49%, #ffffff 75%, #ffffff 100%)
+;
+   text-align: center;}
+   .caja3{
+    grid-area: caja3;
+    }
+    .articulo-diseño{
+        margin-top: 30px;
+        box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+-webkit-box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+        background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 22%, #ff70f6 49%, #ffffff 75%, #ffffff 100%);
+
+    }
+    .articulo-vestido{
+        margin-top: 70px;
+        box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 33px -18px 16px -10px rgba(0,0,0,0.75);
+        background-color: #4158D0;
+background-image: linear-gradient(217deg, #4158D0 0%, #C850C0 12%, #FFCC70 66%, #ffffff 100%);
+
+    }
+
+.contenedor-recepcion{
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "vestido noche"
+    "vestido noche";
+    }
+    .caja-recepcion1{
+        grid-area: "vestido";
+        background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+        text-align: left;
+    }
+    .caja-recepcion2{
+        grid-area: "noche";
+        background-color: #FBDA61;
+        background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+         
+        text-align: right;
+    }
+
+.contacto{
+    background-color: #FA8BFF;
+background-image: linear-gradient(326deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+    padding: 3rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 3rem;    
+}
+
+   .portada1 p {
+    font-family: 'Ephesis', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+   }
+        
+   p{
+    font-size: 2rem;
+
+   }
+   .novedad{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    border: yellowgreen;
+   }
+   footer{
+    height: 20%;
+
+   background-color: black;
+
+    
+  
+   }
+   footer ul{
+    height: 10vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw;
+
+   }
+
+
+ 
